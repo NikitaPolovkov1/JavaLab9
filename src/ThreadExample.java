@@ -7,7 +7,7 @@ public class ThreadExample {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = 0;
-
+        boolean flag = true;
         String menu = "1 - задание\n2 - задание\n3 - задание";
         System.out.println(menu);
         a = scanner.nextInt();
