@@ -99,7 +99,6 @@ public class ThreadExample {
 
                 producer.start();
 
-
                 customer.start();
                 break;
             default:
